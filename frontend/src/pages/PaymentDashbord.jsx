@@ -228,7 +228,7 @@ const PaymentDashboard = () => {
 // CSS styles
 const styles = {
   page: {
-    backgroundColor: '#F1EEDA',
+    backgroundColor: '#E5DCC3',
     minHeight: '100vh',
     display: 'flex',
     justifyContent: 'flex-start',
@@ -247,7 +247,7 @@ const styles = {
     justifyContent: 'space-between',
     alignItems: 'center',
     fontFamily: 'Poppins, sans-serif',
-    color: '#330D0F', 
+    color: '#4B2D1F', 
     fontWeight: 'bold',
   },
   title: {
@@ -257,21 +257,21 @@ const styles = {
   },
   downloadButton: {
     marginBottom: '10px',
-    backgroundColor: '#330D0F',
-    borderColor: '#330D0F',
-    color: '#F1EEDA', // Text color
+    backgroundColor: '#4B2D1F',
+    borderColor: '#4B2D1F',
+    color: '#E5DCC3', // Text color
     padding: '0.5rem 1rem',
     fontSize: '0.88rem',
     fontWeight: 'bold',
     borderRadius: '0.25rem',
     cursor: 'pointer',
-    border: '2px solid #330D0F',
+    border: '2px solid #4B2D1F',
     fontFamily: 'Poppins, sans-serif',
     transition: 'background-color 0.3s, border-color 0.3s',
   },
   downloadButtonHover: {
-    backgroundColor: '#4a1a1b', // Darker shade for hover
-    borderColor: '#4a1a1b',
+    backgroundColor: '#4B2D1F', // Darker shade for hover
+    borderColor: '#4B2D1F',
   },
   addIcon: {
     fontSize: '2rem',
@@ -288,7 +288,7 @@ const styles = {
     padding: '0.5rem',
     fontSize: '0.8rem',
     borderRadius: '0.25rem',
-    border: '3px solid #330D0F',
+    border: '3px solid #4B2D1F',
     fontFamily: 'Poppins, sans-serif',
   },
   searchButton: {
@@ -297,8 +297,8 @@ const styles = {
     fontSize: '0.88rem',
     fontWeight: 'bold',
     color: '#FFFFFF',
-    backgroundColor: '#330D0F',
-    border: '2px solid #330D0F',
+    backgroundColor: '#4B2D1F',
+    border: '2px solid #4B2D1F',
     borderRadius: '0.25rem',
     cursor: 'pointer',
     fontFamily: 'Poppins, sans-serif',
@@ -310,11 +310,11 @@ const styles = {
     tableLayout: 'fixed', // Ensures columns are fixed in width
   },
   th: {
-    borderTop: '3px solid #330D0F',
-    borderBottom: '3px solid #330D0F',
-    borderLeft: '3px solid #330D0F',
-    borderRight: '3px solid #F1EEDA',
-    backgroundColor: '#4A1416',
+    borderTop: '3px solid #4B2D1F',
+    borderBottom: '3px solid #4B2D1F',
+    borderLeft: '3px solid #4B2D1F',
+    borderRight: '3px solid #E5DCC3',
+    backgroundColor: '#4B2D1F',
     color: '#FFFFFF',
     height: '3rem',
     fontFamily: 'Poppins, sans-serif',
@@ -333,11 +333,11 @@ const styles = {
     operations: { width: '10%' },
   },
   thLast: {
-    borderRight: '3px solid #330D0F',
+    borderRight: '3px solid #4B2D1F',
     fontFamily: 'Poppins, sans-serif',
   },
   td: {
-    border: '3px solid #330D0F',
+    border: '3px solid #4B2D1F',
     height: '2.8rem',
     textAlign: 'center',
     fontFamily: 'Poppins, sans-serif',
@@ -359,27 +359,27 @@ const styles = {
 
 const totalPriceRowStyle = {
   totalPriceLabel: {
-    border: '3px solid #330D0F',
+    border: '3px solid #4B2D1F',
     borderRadius: '0.25rem',
     textAlign: 'right',
     fontWeight: 'bold',
     padding: '0.75rem',
-    backgroundColor: '#330D0F',
+    backgroundColor: '#4B2D1F',
     fontFamily: 'Poppins, sans-serif',
     color: '#FFFFFF',
   },
   totalPriceValue: {
-    border: '3px solid #330D0F',
+    border: '3px solid #4B2D1F',
     borderRadius: '0.25rem',
     textAlign: 'center',
-    backgroundColor: '#330D0F',
+    backgroundColor: '#4B2D1F',
     padding: '0.75rem',
     fontWeight: 'bold',
     fontFamily: 'Poppins, sans-serif',
     color: '#FFFFFF',
   },
   emptyCell: {
-    border: '3px solid #330D0F',
+    border: '3px solid #4B2D1F',
     borderRadius: '0.25rem',
     padding: '0.75rem',
     fontFamily: 'Poppins, sans-serif',
