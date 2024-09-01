@@ -57,7 +57,7 @@ const DeletePayment = () => {
 const styles = {
   container: {
     padding: '16px',
-    backgroundColor: '#F1EEDA',
+    backgroundColor: '#E5DCC3',
     minHeight: '100vh',
     fontFamily: 'Poppins, sans-serif',
   },
@@ -80,11 +80,11 @@ const styles = {
     textAlign: 'center',
     fontFamily: 'Poppins, sans-serif',
     fontWeight: 'bold',
-    color: '#330D0F',
+    color: '#4B2D1F',
   },
   buttonDelete: {
     padding: '16px',
-    backgroundColor: '#330D0F',
+    backgroundColor: '#4B2D1F',
     color: '#ffffff',
     margin: '16px',
     width: '100%',
@@ -96,8 +96,8 @@ const styles = {
   },
   buttonCancel: {
     padding: '16px',
-    backgroundColor: '#F1EEDA',
-    color: '#330D0F',
+    backgroundColor: '#E5DCC3',
+    color: '#4B2D1F',
     margin: '16px',
     width: '100%',
     border: '2px solid #330D0F',
