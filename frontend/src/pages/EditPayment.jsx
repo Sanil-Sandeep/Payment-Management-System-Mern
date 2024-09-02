@@ -280,14 +280,14 @@ const styles = {
   container: {
     padding: '2rem',
     fontFamily: 'Poppins, sans-serif',
-    backgroundColor: '#F1EEDA',
+    backgroundColor: '#E5DCC3',
     minHeight: '100vh',
   },
   title: {
     fontSize: '2.5rem',
     margin: '0 0 1.5rem',
     textAlign: 'center',
-    color: '#330D0F',
+    color: '#4B2D1F',
   },
   formContainer: {
     display: 'flex',
@@ -318,7 +318,7 @@ const styles = {
     display: 'block',
     fontSize: '0.9375rem',
     marginBottom: '0.5rem',
-    color: '#330D0F',
+    color: '#4B2D1F',
     fontWeight: 'bold',
   },
   input: {
@@ -352,7 +352,7 @@ const styles = {
   },
   button: {
     padding: '0.75rem 1.5rem',
-    backgroundColor: '#330D0F',
+    backgroundColor: '#4B2D1F',
     width: '100%',
     height: '53px',
     color: '#FFFFFF',
