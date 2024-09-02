@@ -44,7 +44,7 @@ const DeletePayment = () => {
         <button
           style={styles.buttonCancel}
           onClick={() => {
-            navigate('/'); // Redirect to homepage or desired page
+            navigate('/'); // Redirect to homepage or desired page.
           }}
         >
           No
