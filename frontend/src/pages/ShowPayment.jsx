@@ -113,7 +113,7 @@ const ShowPayment = () => {
 
 const styles = {
   pageContainer: {
-    backgroundColor: '#F1EEDA',
+    backgroundColor: '#E5DCC3',
     minHeight: '100vh',
     display: 'flex',
     justifyContent: 'center',
@@ -123,7 +123,7 @@ const styles = {
     padding: '30px',
     fontFamily: 'Arial, sans-serif',
     minWidth: '650px',
-    backgroundColor: '#F1EEDA',
+    backgroundColor: '#E5DCC3',
     borderRadius: '10px',
   },
   title: {
@@ -190,17 +190,17 @@ const styles = {
   },
   deleteButton: {
     backgroundColor: '#330D0F',
-    color: '#F1EEDA',
+    color: '#E5DCC3',
     border: 'none',
   },
   editButton: {
-    backgroundColor: '#F1EEDA',
+    backgroundColor: '#E5DCC3',
     color: '#330D0F',
     border: '5px solid #330D0F',
   },
   receiptButton: {
     backgroundColor: '#330D0F',
-    color: '#F1EEDA',
+    color: '#E5DCC3',
     border: 'none',
   },
 };
