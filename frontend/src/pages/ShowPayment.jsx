@@ -130,7 +130,7 @@ const styles = {
     fontSize: '30px',
     margin: '30px 0',
     textAlign: 'center',
-    color: '#222',
+    color: '#4B2D1F',
   },
   receipt: {
     border: '1px solid #ccc',
@@ -189,17 +189,17 @@ const styles = {
     width: '187px', // Fixed width for consistency
   },
   deleteButton: {
-    backgroundColor: '#330D0F',
+    backgroundColor: '#4B2D1F',
     color: '#E5DCC3',
     border: 'none',
   },
   editButton: {
     backgroundColor: '#E5DCC3',
-    color: '#330D0F',
-    border: '5px solid #330D0F',
+    color: '#4B2D1F',
+    border: '5px solid #4B2D1F',
   },
   receiptButton: {
-    backgroundColor: '#330D0F',
+    backgroundColor: '#4B2D1F',
     color: '#E5DCC3',
     border: 'none',
   },
